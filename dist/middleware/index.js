@@ -11,6 +11,10 @@ exports.default = function (_ref) {
       db = _ref.db;
 
   var api = (0, _express.Router)();
+  for (let i=0; i<50; i++) {
+    var message = Math.round(Math.random()*50);
+    var person = Math.round(Math.random()*20);
+  }
 
   return api;
 };

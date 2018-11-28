@@ -1,7 +1,7 @@
 {
-  "name": "devslopes-api-course",
+  "name": "message-api",
   "version": "0.0.1",
-  "description": "Devslopes RESTful API Course API Project",
+  "description": "message example",
   "main": "dist",
   "scripts": {
     "dev": "NODE_ENV=development nodemon -w src --exec \"babel-node src --presets es2015,stage-0\"",
@@ -28,7 +28,7 @@
     "type": "git",
     "url": "git+https://bitbucket.org/jackd942/api-course.git"
   },
-  "author": "Neal connolly",
+  "author": "Neal Connolly",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.18.0",
