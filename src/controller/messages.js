@@ -18,7 +18,7 @@ export default() => {
          messageObject[i]['text'] = textdata[randomMessage].text;
          messageObject[i]['author']['name'] =  peopledata[randomPerson].name;
          messageObject[i]['author']['photoUrl'] = '/assets/'+ randomPerson + '.png';
-         messageObject[i]['updated'] = Date.now() - count*1000*60*60*24;
+         messageObject[i]['updated'] = Date.now() - count*1000*60*60*24 - i*1000*5*60;
       }
     
       res.json(messageObject);
